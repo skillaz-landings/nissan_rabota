@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nissan</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-216602-96SNX';</script>
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <script src="javascripts/vendor.js"></script>
+    <script src="javascripts/app.js"></script>
+    <script>require('initialize')</script>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="container">
+            <img class="logo" src="./images/logo.png">
+            <div class="call-to-action">
+                <div class="title">
+                    <span>Открыта вакансия:</span>
+                    <br>Оператор производственной линии</div>
+                <a class="button GOTOINTERVIEWURL" href="#">Оставить заявку</a>
+            </div>
+        </div>
+    </div>
+    <div class="duties">
+        <div class="container">
+            <div class="title">Обязанности</div>
+            <div class="duties__item">
+                <img class="mark" src="./images/mark.svg">Предварительная подсборка основных узлов автомобиля;</div>
+            <div class="duties__item">
+                <img class="mark" src="./images/mark.svg">Сборка автомобиля:</div>
+            <div class="duties__item duties__item--sub">
+                <img class="oval" src="./images/oval.svg">Установка деталей салона</div>
+            <div class="duties__item duties__item--sub">
+                <img class="oval" src="./images/oval.svg">Ходовой части</div>
+            <div class="duties__item duties__item--sub">
+                <img class="oval" src="./images/oval.svg">Двигателя с трансмиссией</div>
+            <div class="duties__item duties__item--sub">
+                <img class="oval" src="./images/oval.svg">Заправка рабочими жидкостями</div>
+        </div>
+    </div>
+    <div class="demands">
+        <div class="container">
+            <div class="title">Требования</div>
+            <div class="demands__item">
+                <img src="./images/red_oval.svg">Образование:
+                <span>Среднее полное</span>
+            </div>
+            <div class="demands__item">
+                <img src="./images/red_oval.svg">Готовность работать в сменном графике</div>
+            <div class="demands__item">
+                <img src="./images/red_oval.svg">Личные качества:
+                <br>
+                <div class="demands__qualities">высокая организованность, ответственность, дисциплинированность, внимательность к деталям, исполнительность,
+                    строгое следование процедурам и инструкциям.</div>
+            </div>
+        </div>
+    </div>
+    <div class="conditions">
+        <div class="container">
+            <div class="title">Условия:</div>
+            <div class="conditions__info">
+                <div class="conditions__subtitle">График работы сменный:</div>
+                <div class="conditions__item">
+                    <img src="./images/oval_white.svg">неделя утро 7:25 – 16:00</div>
+                <div class="conditions__item">
+                    <img src="./images/oval_white.svg">неделя вечер 16:00 – 00:00.</div>
+            </div>
+            <a class="button GOTOINTERVIEWURL" href="#">Оставить заявку</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">© Nissan 2018</div>
+    </div>
+    <script>
+        var GOTOINTERVIEWURL = "https://interview.skillaz.co/?vacancyId=5a817e3f58c6230001f0f4f9";
+        document.addEventListener("DOMContentLoaded", function () {
+          var getUrlParameter = function getUrlParameter(sParam) {
+            var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+              sURLVariables = sPageURL.split('&'),
+              sParameterName,
+              i;
+            for (i = 0; i < sURLVariables.length; i++) {
+              sParameterName = sURLVariables[i].split('=');
+              if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : sParameterName[1];
+              }
+            }
+          };
+          var invDetId = getUrlParameter('skillazInterviewId');
+          var e = document.getElementsByClassName("gotointerview");
+          var url = invDetId ? 'https://interview.skillaz.co/' + invDetId : GOTOINTERVIEWURL;
+          for (var i = 0; i < e.length; i++) {
+            e[i].setAttribute('href', url);
+          }
+        });
+      </script>
+</body>
+
+</html>
